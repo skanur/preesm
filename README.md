@@ -1,5 +1,11 @@
-PREESM
-======
+Data-parallel Plugin
+=====
+
+Plugin to determine if a given Synchronous Dataflow Graph (SDFG) is data-parallel i.e the SDFG can be scheduled in such a way that each actor can fire all of its instances when the actor is ready to be executed. 
+
+The work is part of PREESM toolchain.
+
+## PREESM
 
 PREESM (the Parallel and Real-time Embedded Executives Scheduling Method) is an open source rapid prototyping and code generation tool. It is primarily employed to simulate signal processing applications and generate code for multi-core Digital Signal Processors. PREESM is developed at the Institute of Electronics and Telecommunications-Rennes (IETR) in collaboration with Texas Instruments France in Nice.
 
